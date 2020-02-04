@@ -8,10 +8,10 @@ First, you'll have to create a gitlab account. Go to [**gitlab**](https://gitlab
 
 ### Create your first repository
 * **Create a project**
-![create a project](./images/createproj.png)
+![create a project](./images/createproj.PNG)
 
 * **Fill in needed details**
-![fill in details](./images/creation.png)
+![fill in details](./images/creation.PNG)
 
 * **Add your professor as a maintainer**
 ![add prof](./images/members.png)
@@ -23,13 +23,13 @@ First, you'll have to create a gitlab account. Go to [**gitlab**](https://gitlab
 * **Create your public SSH Key**:
   * Execute command: ssh-keygen -t ed25519 -C "youremail@example.com"
   * Press Enter to skip changing permissions/changing the key's directory
-  ![create ssh](./images/createssh.png)
+  ![create ssh](./images/createssh.PNG)
   * Copy the ssh key using "xclip path/to/key" or cat the content of they key and copy it using CTRL+SHIFT+C or rightclick+copy:
-  ![copy ssh](./images/copyssh.png)
+  ![copy ssh](./images/copyssh.PNG)
   
 * **Locate the SSH Keys page from your profile settings**
-![ssh page](./images/sshpage.png) or use the url to get there
+![ssh page](./images/sshpage.PNG) or use the url to get there
   * Paste the key into the box and add it
 * **Check if everything's working**
   Run "ssh git@gitlab.com". If you get a welcome message, you're good to go!
-  ![welcome](./images/welcome.png)
+  ![welcome](./images/welcome.PNG)
